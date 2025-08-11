@@ -36,7 +36,7 @@ function mensagemInicial (){
     exibirTextoNaTela('p', 'Escolha um número entre 1 e 10');
 }
 function gerarNumeroAleatorio() {
-    let numeroEscolhido = parseInt(Math.random() * 50 + 1);
+    let numeroEscolhido = parseInt(Math.random() * 100 + 1);
     let quantidadeDeElementoLista = listaNumerosSorteados.length;
     if(quantidadeDeElementoLista == numeroLimite){
         listaNumerosSorteados = [];
